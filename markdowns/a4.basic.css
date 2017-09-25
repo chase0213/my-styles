@@ -1,0 +1,49 @@
+@page {
+  size: A4;
+  margin: 2em 10mm 2em;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 2em 0 .8em;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.8em;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5, h6 {
+  font-size: 1.2em;
+}
+
+h2, h4, h6 {
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+p {
+  font-size: 1.0em;
+  margin: 0;
+  padding: 0;
+}
